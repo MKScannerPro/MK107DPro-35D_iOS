@@ -1,0 +1,6 @@
+framework module MKRemoteSevenDPro {
+  umbrella header "MKRemoteSevenDPro-umbrella.h"
+
+  export *
+  module * { export * }
+}

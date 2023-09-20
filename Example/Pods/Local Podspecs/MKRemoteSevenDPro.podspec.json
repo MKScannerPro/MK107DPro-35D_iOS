@@ -1,0 +1,1305 @@
+{
+  "name": "MKRemoteSevenDPro",
+  "version": "0.0.1",
+  "summary": "A short description of MKRemoteSevenDPro.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lovexiaoxia/MKRemoteSevenDPro",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lovexiaoxia": "aadyx2007@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lovexiaoxia/MKRemoteSevenDPro.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "MKRemoteSevenDPro": [
+      "MKRemoteSevenDPro/Assets/*.png"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Target",
+      "source_files": "MKRemoteSevenDPro/Classes/Target/**",
+      "dependencies": {
+        "MKBaseModuleLibrary": [
+
+        ],
+        "MKRemoteSevenDPro/Functions": [
+
+        ]
+      }
+    },
+    {
+      "name": "CTMediator",
+      "source_files": "MKRemoteSevenDPro/Classes/CTMediator/**",
+      "dependencies": {
+        "CTMediator": [
+
+        ],
+        "MKBaseModuleLibrary": [
+
+        ]
+      }
+    },
+    {
+      "name": "DeviceModel",
+      "source_files": "MKRemoteSevenDPro/Classes/DeviceModel/**",
+      "dependencies": {
+        "MKBaseModuleLibrary": [
+
+        ],
+        "MKRemoteSevenDPro/SDK/MQTT": [
+
+        ]
+      }
+    },
+    {
+      "name": "Expand",
+      "dependencies": {
+        "MKBaseModuleLibrary": [
+
+        ],
+        "MKCustomUIModule": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "BleBaseController",
+          "source_files": "MKRemoteSevenDPro/Classes/Expand/BleBaseController/**",
+          "dependencies": {
+            "MKRemoteSevenDPro/SDK/BLE": [
+
+            ]
+          }
+        },
+        {
+          "name": "BaseController",
+          "source_files": "MKRemoteSevenDPro/Classes/Expand/BaseController/**",
+          "dependencies": {
+            "MKRemoteSevenDPro/SDK/MQTT": [
+
+            ],
+            "MKRemoteSevenDPro/DeviceModel": [
+
+            ]
+          }
+        },
+        {
+          "name": "DatabaseManager",
+          "source_files": "MKRemoteSevenDPro/Classes/Expand/DatabaseManager/**",
+          "dependencies": {
+            "FMDB": [
+
+            ],
+            "MKRemoteSevenDPro/DeviceModel": [
+
+            ]
+          }
+        },
+        {
+          "name": "ExcelManager",
+          "source_files": "MKRemoteSevenDPro/Classes/Expand/ExcelManager/**",
+          "dependencies": {
+            "libxlsxwriter": [
+
+            ],
+            "SSZipArchive": [
+
+            ]
+          }
+        },
+        {
+          "name": "View",
+          "subspecs": [
+            {
+              "name": "AlertView",
+              "source_files": "MKRemoteSevenDPro/Classes/Expand/View/AlertView/**"
+            },
+            {
+              "name": "FilterCell",
+              "subspecs": [
+                {
+                  "name": "FilterBeaconCell",
+                  "source_files": "MKRemoteSevenDPro/Classes/Expand/View/FilterCell/FilterBeaconCell/**"
+                },
+                {
+                  "name": "FilterByRawDataCell",
+                  "source_files": "MKRemoteSevenDPro/Classes/Expand/View/FilterCell/FilterByRawDataCell/**"
+                },
+                {
+                  "name": "FilterEditSectionHeaderView",
+                  "source_files": "MKRemoteSevenDPro/Classes/Expand/View/FilterCell/FilterEditSectionHeaderView/**"
+                },
+                {
+                  "name": "FilterNormalTextFieldCell",
+                  "source_files": "MKRemoteSevenDPro/Classes/Expand/View/FilterCell/FilterNormalTextFieldCell/**"
+                }
+              ]
+            },
+            {
+              "name": "UserCredentialsView",
+              "source_files": "MKRemoteSevenDPro/Classes/Expand/View/UserCredentialsView/**"
+            }
+          ]
+        },
+        {
+          "name": "ImportServerPage",
+          "subspecs": [
+            {
+              "name": "Controller",
+              "source_files": "MKRemoteSevenDPro/Classes/Expand/ImportServerPage/Controller/**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SDK",
+      "subspecs": [
+        {
+          "name": "BLE",
+          "source_files": "MKRemoteSevenDPro/Classes/SDK/BLE/**",
+          "dependencies": {
+            "MKBaseBleModule": [
+
+            ]
+          }
+        },
+        {
+          "name": "MQTT",
+          "subspecs": [
+            {
+              "name": "Manager",
+              "source_files": "MKRemoteSevenDPro/Classes/SDK/MQTT/Manager/**",
+              "dependencies": {
+                "MKBaseModuleLibrary": [
+
+                ],
+                "MKBaseMQTTModule": [
+
+                ]
+              }
+            },
+            {
+              "name": "SDK",
+              "source_files": "MKRemoteSevenDPro/Classes/SDK/MQTT/SDK/**",
+              "dependencies": {
+                "MKBaseModuleLibrary": [
+
+                ],
+                "MKRemoteSevenDPro/SDK/MQTT/Manager": [
+
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Functions",
+      "dependencies": {
+        "MKRemoteSevenDPro/SDK": [
+
+        ],
+        "MKRemoteSevenDPro/Expand": [
+
+        ],
+        "MKRemoteSevenDPro/CTMediator": [
+
+        ],
+        "MKRemoteSevenDPro/DeviceModel": [
+
+        ],
+        "MKBaseModuleLibrary": [
+
+        ],
+        "MKCustomUIModule": [
+
+        ],
+        "MLInputDodger": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "AddDeviceModules",
+          "subspecs": [
+            {
+              "name": "ParamsModel",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/ParamsModel/**"
+            },
+            {
+              "name": "Pages",
+              "dependencies": {
+                "MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel": [
+
+                ]
+              },
+              "subspecs": [
+                {
+                  "name": "BleDeviceInfoPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "BleNetworkSettingsPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "BleScannerFilterPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "BleWifiSettingsPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Model": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/View": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Model/**"
+                    },
+                    {
+                      "name": "View",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/View/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "BleAdvBeaconPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "ConnectSuccessPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/ConnectSuccessPage/Controller/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "DeviceParamsListPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/DeviceParamsListPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice": [
+
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "NTPTimezonePage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/NTPTimezonePage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/NTPTimezonePage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "ServerForDevice",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/ServerForDevice/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Model": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/View": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/ServerForDevice/Model/**"
+                    },
+                    {
+                      "name": "View",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/AddDeviceModules/Pages/ServerForDevice/View/**"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DeviceDataPage",
+          "subspecs": [
+            {
+              "name": "Controller",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/DeviceDataPage/Controller/**",
+              "dependencies": {
+                "MKRemoteSevenDPro/Functions/DeviceDataPage/View": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/SettingPages": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/ManageBleModules": [
+
+                ]
+              }
+            },
+            {
+              "name": "View",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/DeviceDataPage/View/**"
+            }
+          ]
+        },
+        {
+          "name": "DeviceListPage",
+          "subspecs": [
+            {
+              "name": "Controller",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/DeviceListPage/Controller/**",
+              "dependencies": {
+                "MKRemoteSevenDPro/Functions/DeviceListPage/View": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/DeviceListPage/Model": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/ServerForApp": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/ScanPage": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/DeviceDataPage": [
+
+                ]
+              }
+            },
+            {
+              "name": "Model",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/DeviceListPage/Model/**"
+            },
+            {
+              "name": "View",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/DeviceListPage/View/**",
+              "dependencies": {
+                "MKRemoteSevenDPro/Functions/DeviceListPage/Model": [
+
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "FilterPages",
+          "subspecs": [
+            {
+              "name": "DuplicateDataFilterPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/DuplicateDataFilterPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/DuplicateDataFilterPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByAdvNamePage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByAdvNamePage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByAdvNamePage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByBeaconPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByBeaconPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Header",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByBeaconPage/Header/**"
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByBeaconPage/Model/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header": [
+
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "FilterByButtonPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByButtonPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByButtonPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByMacPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByMacPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByMacPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByOtherPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByOtherPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByOtherPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByPirPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByPirPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByPirPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByRawDataPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByRawDataPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Model": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByTag": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByRawDataPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByTag",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByTag/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByTag/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByTLMPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByTLMPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByTLMPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByUIDPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByUIDPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByUIDPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "FilterByURLPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByURLPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/FilterByURLPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "UploadDataOptionPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/UploadDataOptionPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/UploadDataOptionPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "UploadOptionPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/UploadOptionPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Model": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/View": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/UploadOptionPage/Model/**"
+                },
+                {
+                  "name": "View",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/FilterPages/UploadOptionPage/View/**"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ManageBleModules",
+          "subspecs": [
+            {
+              "name": "ButtonDFUPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/ManageBleModules/ButtonDFUPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/ManageBleModules/ButtonDFUPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "BXPButtonPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/ManageBleModules/BXPButtonPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/View": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "View",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/ManageBleModules/BXPButtonPage/View/**"
+                }
+              ]
+            },
+            {
+              "name": "ManageBleDevicesPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/ManageBleModules/ManageBleDevicesPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/View": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "View",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/ManageBleModules/ManageBleDevicesPage/View/**"
+                }
+              ]
+            },
+            {
+              "name": "NormalConnectedPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/ManageBleModules/NormalConnectedPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/View": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "View",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/ManageBleModules/NormalConnectedPage/View/**"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ScanPage",
+          "subspecs": [
+            {
+              "name": "Controller",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/ScanPage/Controller/**",
+              "dependencies": {
+                "MKRemoteSevenDPro/Functions/ScanPage/Model": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/ScanPage/View": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/AddDeviceModules": [
+
+                ]
+              }
+            },
+            {
+              "name": "Model",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/ScanPage/Model/**"
+            },
+            {
+              "name": "View",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/ScanPage/View/**",
+              "dependencies": {
+                "MKRemoteSevenDPro/Functions/ScanPage/Model": [
+
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "ServerForApp",
+          "subspecs": [
+            {
+              "name": "Controller",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/ServerForApp/Controller/**",
+              "dependencies": {
+                "MKRemoteSevenDPro/Functions/ServerForApp/Model": [
+
+                ],
+                "MKRemoteSevenDPro/Functions/ServerForApp/View": [
+
+                ]
+              }
+            },
+            {
+              "name": "Model",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/ServerForApp/Model/**"
+            },
+            {
+              "name": "View",
+              "source_files": "MKRemoteSevenDPro/Classes/Functions/ServerForApp/View/**"
+            }
+          ]
+        },
+        {
+          "name": "SettingPages",
+          "subspecs": [
+            {
+              "name": "DeviceInfoPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/DeviceInfoPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/DeviceInfoPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "ModifyNetworkPages",
+              "subspecs": [
+                {
+                  "name": "MqttNetworkSettingsPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "MqttParamsListPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Model": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "MqttServerPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Model": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/View": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Model/**"
+                    },
+                    {
+                      "name": "View",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/View/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "MqttWifiSettingsPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Model": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/View": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Model/**"
+                    },
+                    {
+                      "name": "View",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/View/**"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "NormalSettings",
+              "subspecs": [
+                {
+                  "name": "AdvBeaconPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/AdvBeaconPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/AdvBeaconPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "CommunicatePage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/CommunicatePage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/CommunicatePage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "DataReportPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/DataReportPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/DataReportPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "IndicatorSettingsPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "NetworkStatusPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/NetworkStatusPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/NetworkStatusPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "NTPServerPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/NTPServerPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/NTPServerPage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "ReconnectTimePage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/ReconnectTimePage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Model": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "Model",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/ReconnectTimePage/Model/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "ResetByButtonPage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/ResetByButtonPage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/View": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "View",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/ResetByButtonPage/View/**"
+                    }
+                  ]
+                },
+                {
+                  "name": "SystemTimePage",
+                  "subspecs": [
+                    {
+                      "name": "Controller",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/SystemTimePage/Controller/**",
+                      "dependencies": {
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/View": [
+
+                        ],
+                        "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "name": "View",
+                      "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/NormalSettings/SystemTimePage/View/**"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "OTAPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/OTAPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Model": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/OTAPage/Model/**"
+                }
+              ]
+            },
+            {
+              "name": "SettingPage",
+              "subspecs": [
+                {
+                  "name": "Controller",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/SettingPage/Controller/**",
+                  "dependencies": {
+                    "MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Model": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/SettingPages/NormalSettings": [
+
+                    ],
+                    "MKRemoteSevenDPro/Functions/SettingPages/OTAPage": [
+
+                    ]
+                  }
+                },
+                {
+                  "name": "Model",
+                  "source_files": "MKRemoteSevenDPro/Classes/Functions/SettingPages/SettingPage/Model/**"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

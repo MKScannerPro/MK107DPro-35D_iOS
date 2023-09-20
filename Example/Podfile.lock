@@ -1,0 +1,2146 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CircleProgressBar (0.32)
+  - CTMediator (48)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - libxlsxwriter (1.1.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.5)
+  - MKBaseBleModule (1.1.4)
+  - MKBaseModuleLibrary (1.1.8):
+    - MKBaseModuleLibrary/Base (= 1.1.8)
+    - MKBaseModuleLibrary/Category (= 1.1.8)
+    - MKBaseModuleLibrary/Defines (= 1.1.8)
+    - MKBaseModuleLibrary/Tools (= 1.1.8)
+  - MKBaseModuleLibrary/Base (1.1.8):
+    - MKBaseModuleLibrary/Base/Cell (= 1.1.8)
+    - MKBaseModuleLibrary/Base/Controller (= 1.1.8)
+    - MKBaseModuleLibrary/Base/NavigationController (= 1.1.8)
+    - MKBaseModuleLibrary/Base/View (= 1.1.8)
+  - MKBaseModuleLibrary/Base/Cell (1.1.8):
+    - MKBaseModuleLibrary/Base/Cell/MKBaseCell (= 1.1.8)
+  - MKBaseModuleLibrary/Base/Cell/MKBaseCell (1.1.8):
+    - Masonry
+    - MKBaseModuleLibrary/Defines
+  - MKBaseModuleLibrary/Base/Controller (1.1.8):
+    - MKBaseModuleLibrary/Category
+    - MKBaseModuleLibrary/Defines
+    - WRNavigationBar
+  - MKBaseModuleLibrary/Base/NavigationController (1.1.8)
+  - MKBaseModuleLibrary/Base/View (1.1.8):
+    - MKBaseModuleLibrary/Base/View/CollectionView (= 1.1.8)
+    - MKBaseModuleLibrary/Base/View/TableView (= 1.1.8)
+  - MKBaseModuleLibrary/Base/View/CollectionView (1.1.8)
+  - MKBaseModuleLibrary/Base/View/TableView (1.1.8)
+  - MKBaseModuleLibrary/Category (1.1.8):
+    - MKBaseModuleLibrary/Defines
+    - MKBaseModuleLibrary/Tools/MKClassInfo
+    - Toast
+  - MKBaseModuleLibrary/Defines (1.1.8)
+  - MKBaseModuleLibrary/Tools (1.1.8):
+    - MKBaseModuleLibrary/Tools/MKClassInfo (= 1.1.8)
+    - MKBaseModuleLibrary/Tools/MKDateFormatter (= 1.1.8)
+    - MKBaseModuleLibrary/Tools/MKExcelManager (= 1.1.8)
+    - MKBaseModuleLibrary/Tools/MKModuleManager (= 1.1.8)
+  - MKBaseModuleLibrary/Tools/MKClassInfo (1.1.8)
+  - MKBaseModuleLibrary/Tools/MKDateFormatter (1.1.8)
+  - MKBaseModuleLibrary/Tools/MKExcelManager (1.1.8):
+    - libxlsxwriter
+    - MKBaseModuleLibrary/Defines
+    - SSZipArchive
+  - MKBaseModuleLibrary/Tools/MKModuleManager (1.1.8)
+  - MKBaseMQTTModule (0.0.7):
+    - MKBaseMQTTModule/MQTT (= 0.0.7)
+    - MKBaseMQTTModule/MQTTClient (= 0.0.7)
+    - MKBaseMQTTModule/NetworkManager (= 0.0.7)
+  - MKBaseMQTTModule/MQTT (0.0.7):
+    - MKBaseMQTTModule/MQTTClient
+  - MKBaseMQTTModule/MQTTClient (0.0.7)
+  - MKBaseMQTTModule/NetworkManager (0.0.7):
+    - AFNetworking
+  - MKCustomUIModule (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Cell (= 1.4.4)
+    - MKCustomUIModule/Controller (= 1.4.4)
+    - MKCustomUIModule/MQTTServerView (= 1.4.4)
+    - MKCustomUIModule/UIAdopter (= 1.4.4)
+    - MKCustomUIModule/View (= 1.4.4)
+  - MKCustomUIModule/Cell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Cell/LoRaCell (= 1.4.4)
+    - MKCustomUIModule/Cell/NormalCell (= 1.4.4)
+  - MKCustomUIModule/Cell/LoRaCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (= 1.4.4)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (= 1.4.4)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (= 1.4.4)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (= 1.4.4)
+    - MKCustomUIModule/Cell/LoRaCell/MKLoraDeviceTypeCell (= 1.4.4)
+    - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (= 1.4.4)
+    - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (= 1.4.4)
+    - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (= 1.4.4)
+    - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (= 1.4.4)
+  - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/UIAdopter
+    - MKCustomUIModule/View/MKPickerView
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/Cell/LoRaCell/MKLoraDeviceTypeCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKPickerView
+  - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/UIAdopter
+    - MKCustomUIModule/View/MKSlider
+  - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/NormalCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (= 1.4.4)
+    - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (= 1.4.4)
+    - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (= 1.4.4)
+    - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (= 1.4.4)
+    - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (= 1.4.4)
+    - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (= 1.4.4)
+    - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (= 1.4.4)
+  - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/UIAdopter
+    - MKCustomUIModule/View/MKSlider
+  - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKPickerView
+  - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Controller (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Controller/CASelectPage (= 1.4.4)
+    - MKCustomUIModule/Controller/MKAboutPage (= 1.4.4)
+    - MKCustomUIModule/Controller/MKAlertController (= 1.4.4)
+    - MKCustomUIModule/Controller/MKTrackerAboutPage (= 1.4.4)
+    - MKCustomUIModule/Controller/MKTrackerLogPage (= 1.4.4)
+  - MKCustomUIModule/Controller/CASelectPage (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Controller/CASelectPage/Controller (= 1.4.4)
+  - MKCustomUIModule/Controller/CASelectPage/Controller (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell
+  - MKCustomUIModule/Controller/MKAboutPage (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Controller/MKAboutPage/Controller (= 1.4.4)
+    - MKCustomUIModule/Controller/MKAboutPage/Model (= 1.4.4)
+    - MKCustomUIModule/Controller/MKAboutPage/View (= 1.4.4)
+  - MKCustomUIModule/Controller/MKAboutPage/Controller (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Controller/MKAboutPage/Model
+    - MKCustomUIModule/Controller/MKAboutPage/View
+  - MKCustomUIModule/Controller/MKAboutPage/Model (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Controller/MKAboutPage/View (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Controller/MKAboutPage/Model
+  - MKCustomUIModule/Controller/MKAlertController (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Controller/MKTrackerAboutPage (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (= 1.4.4)
+  - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Controller/MKTrackerLogPage (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Controller/MKTrackerLogPage/Controller (= 1.4.4)
+  - MKCustomUIModule/Controller/MKTrackerLogPage/Controller (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/MQTTServerView (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/MQTTServerView/GeneralParams (= 1.4.4)
+    - MKCustomUIModule/MQTTServerView/SSL (= 1.4.4)
+    - MKCustomUIModule/MQTTServerView/UserCredentials (= 1.4.4)
+  - MKCustomUIModule/MQTTServerView/GeneralParams (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/MQTTServerView/SSL (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/MQTTServerView/UserCredentials (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/UIAdopter (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View
+  - MKCustomUIModule/View (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/HaveRefreshView (= 1.4.4)
+    - MKCustomUIModule/View/MKAlertView (= 1.4.4)
+    - MKCustomUIModule/View/MKHexKeyBoard (= 1.4.4)
+    - MKCustomUIModule/View/MKHudManager (= 1.4.4)
+    - MKCustomUIModule/View/MKPageControl (= 1.4.4)
+    - MKCustomUIModule/View/MKPickerView (= 1.4.4)
+    - MKCustomUIModule/View/MKProgressView (= 1.4.4)
+    - MKCustomUIModule/View/MKSearchButton (= 1.4.4)
+    - MKCustomUIModule/View/MKSearchConditionsView (= 1.4.4)
+    - MKCustomUIModule/View/MKSlider (= 1.4.4)
+    - MKCustomUIModule/View/MKTableSectionHeader (= 1.4.4)
+    - MKCustomUIModule/View/MKTextField (= 1.4.4)
+    - MKCustomUIModule/View/NirKxMenu (= 1.4.4)
+    - MKCustomUIModule/View/WifiAlertView (= 1.4.4)
+  - MKCustomUIModule/View/HaveRefreshView (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKAlertView (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/View/MKHexKeyBoard (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKHudManager (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKPageControl (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKPickerView (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKProgressView (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKSearchButton (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKSearchConditionsView (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKSlider
+  - MKCustomUIModule/View/MKSlider (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKTableSectionHeader (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/MKTextField (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/NirKxMenu (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/View/WifiAlertView (1.4.4):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKRemoteSevenDPro (0.0.1):
+    - MKRemoteSevenDPro/CTMediator (= 0.0.1)
+    - MKRemoteSevenDPro/DeviceModel (= 0.0.1)
+    - MKRemoteSevenDPro/Expand (= 0.0.1)
+    - MKRemoteSevenDPro/Functions (= 0.0.1)
+    - MKRemoteSevenDPro/SDK (= 0.0.1)
+    - MKRemoteSevenDPro/Target (= 0.0.1)
+  - MKRemoteSevenDPro/CTMediator (0.0.1):
+    - CTMediator
+    - MKBaseModuleLibrary
+  - MKRemoteSevenDPro/DeviceModel (0.0.1):
+    - MKBaseModuleLibrary
+    - MKRemoteSevenDPro/SDK/MQTT
+  - MKRemoteSevenDPro/Expand (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/Expand/BaseController (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/BleBaseController (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/DatabaseManager (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/ExcelManager (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/ImportServerPage (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/View (= 0.0.1)
+  - MKRemoteSevenDPro/Expand/BaseController (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/SDK/MQTT
+  - MKRemoteSevenDPro/Expand/BleBaseController (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/SDK/BLE
+  - MKRemoteSevenDPro/Expand/DatabaseManager (0.0.1):
+    - FMDB
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/DeviceModel
+  - MKRemoteSevenDPro/Expand/ExcelManager (0.0.1):
+    - libxlsxwriter
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - SSZipArchive
+  - MKRemoteSevenDPro/Expand/ImportServerPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/Expand/ImportServerPage/Controller (= 0.0.1)
+  - MKRemoteSevenDPro/Expand/ImportServerPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKRemoteSevenDPro/Expand/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/Expand/View/AlertView (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/View/FilterCell (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/View/UserCredentialsView (= 0.0.1)
+  - MKRemoteSevenDPro/Expand/View/AlertView (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKRemoteSevenDPro/Expand/View/FilterCell (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/Expand/View/FilterCell/FilterBeaconCell (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/View/FilterCell/FilterByRawDataCell (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/View/FilterCell/FilterEditSectionHeaderView (= 0.0.1)
+    - MKRemoteSevenDPro/Expand/View/FilterCell/FilterNormalTextFieldCell (= 0.0.1)
+  - MKRemoteSevenDPro/Expand/View/FilterCell/FilterBeaconCell (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKRemoteSevenDPro/Expand/View/FilterCell/FilterByRawDataCell (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKRemoteSevenDPro/Expand/View/FilterCell/FilterEditSectionHeaderView (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKRemoteSevenDPro/Expand/View/FilterCell/FilterNormalTextFieldCell (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKRemoteSevenDPro/Expand/View/UserCredentialsView (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKRemoteSevenDPro/Functions (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/DeviceDataPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/DeviceListPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ManageBleModules (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ScanPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ServerForApp (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/DeviceParamsListPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Model
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Model
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Model
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Model
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Model
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/View
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/DeviceParamsListPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/DeviceParamsListPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/DeviceParamsListPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Model
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/View (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Model
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/View
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/DeviceDataPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/DeviceDataPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/DeviceDataPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/DeviceDataPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/DeviceDataPage/View
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage
+    - MKRemoteSevenDPro/Functions/ManageBleModules
+    - MKRemoteSevenDPro/Functions/SettingPages
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/DeviceDataPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/DeviceListPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/DeviceListPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/DeviceListPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/DeviceListPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/DeviceListPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/DeviceDataPage
+    - MKRemoteSevenDPro/Functions/DeviceListPage/Model
+    - MKRemoteSevenDPro/Functions/DeviceListPage/View
+    - MKRemoteSevenDPro/Functions/ScanPage
+    - MKRemoteSevenDPro/Functions/ServerForApp
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/DeviceListPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/DeviceListPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/DeviceListPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Model
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage
+    - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Model
+    - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage
+    - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage
+    - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/View
+    - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ScanPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ScanPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ScanPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ScanPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ScanPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/AddDeviceModules
+    - MKRemoteSevenDPro/Functions/ScanPage/Model
+    - MKRemoteSevenDPro/Functions/ScanPage/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ScanPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ScanPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ScanPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ServerForApp (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ServerForApp/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ServerForApp/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/ServerForApp/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ServerForApp/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/ServerForApp/Model
+    - MKRemoteSevenDPro/Functions/ServerForApp/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ServerForApp/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/ServerForApp/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/OTAPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/SettingPage (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Model
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Model
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Model
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/View (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/View
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/OTAPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/SettingPage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage
+    - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages
+    - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings
+    - MKRemoteSevenDPro/Functions/SettingPages/OTAPage
+    - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Model
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Model (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/SDK (0.0.1):
+    - MKRemoteSevenDPro/SDK/BLE (= 0.0.1)
+    - MKRemoteSevenDPro/SDK/MQTT (= 0.0.1)
+  - MKRemoteSevenDPro/SDK/BLE (0.0.1):
+    - MKBaseBleModule
+  - MKRemoteSevenDPro/SDK/MQTT (0.0.1):
+    - MKRemoteSevenDPro/SDK/MQTT/Manager (= 0.0.1)
+    - MKRemoteSevenDPro/SDK/MQTT/SDK (= 0.0.1)
+  - MKRemoteSevenDPro/SDK/MQTT/Manager (0.0.1):
+    - MKBaseModuleLibrary
+    - MKBaseMQTTModule
+  - MKRemoteSevenDPro/SDK/MQTT/SDK (0.0.1):
+    - MKBaseModuleLibrary
+    - MKRemoteSevenDPro/SDK/MQTT/Manager
+  - MKRemoteSevenDPro/Target (0.0.1):
+    - MKBaseModuleLibrary
+    - MKRemoteSevenDPro/Functions
+  - MLInputDodger (1.5.2)
+  - SSZipArchive (2.4.3)
+  - Toast (4.0.0)
+  - WRNavigationBar (1.4.0)
+
+DEPENDENCIES:
+  - MKRemoteSevenDPro (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CircleProgressBar
+    - CTMediator
+    - FMDB
+    - libxlsxwriter
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseBleModule
+    - MKBaseModuleLibrary
+    - MKBaseMQTTModule
+    - MKCustomUIModule
+    - MLInputDodger
+    - SSZipArchive
+    - Toast
+    - WRNavigationBar
+
+EXTERNAL SOURCES:
+  MKRemoteSevenDPro:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  CircleProgressBar: 3920079be5224b62b3d9ed6eeb23ac01c835b681
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  libxlsxwriter: 07cdc00cf0edb30ce9773efbbb49a03459a6e0f0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MKBaseBleModule: 15aa067c4e408a473e025b1a768ebce00a7e5949
+  MKBaseModuleLibrary: 8d0292b517d87552083f9180eeaa4569605707db
+  MKBaseMQTTModule: 5434692b017865eede3b2ac6d2b4df52acd65a91
+  MKCustomUIModule: 83b76a0ccd1ac855157091b389154bd6a309c414
+  MKRemoteSevenDPro: 35d1b7b1ed07f9e31dc7371cda34aed1ea46a05f
+  MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  WRNavigationBar: 10bfdf96addf14d640d07c2ef08a029c18d8af10
+
+PODFILE CHECKSUM: a0a4a40c2022f818c1f8ad7bdb3072365b478665
+
+COCOAPODS: 1.12.1
