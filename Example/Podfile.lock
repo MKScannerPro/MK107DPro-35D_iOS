@@ -73,46 +73,86 @@ PODS:
   - MKBaseMQTTModule/MQTTClient (0.0.7)
   - MKBaseMQTTModule/NetworkManager (0.0.7):
     - AFNetworking
-  - MKCustomUIModule (2.1.1):
+  - MKCustomUIModule (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell (= 2.1.1)
-    - MKCustomUIModule/Controller (= 2.1.1)
-    - MKCustomUIModule/MQTTServerView (= 2.1.1)
-    - MKCustomUIModule/UIAdopter (= 2.1.1)
-    - MKCustomUIModule/View (= 2.1.1)
-  - MKCustomUIModule/Cell (2.1.1):
+    - MKCustomUIModule/Cell (= 2.1.3)
+    - MKCustomUIModule/Controller (= 2.1.3)
+    - MKCustomUIModule/MQTTServerView (= 2.1.3)
+    - MKCustomUIModule/UIAdopter (= 2.1.3)
+    - MKCustomUIModule/View (= 2.1.3)
+  - MKCustomUIModule/Cell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell/LoRaCell (= 2.1.1)
-    - MKCustomUIModule/Cell/NormalCell (= 2.1.1)
-  - MKCustomUIModule/Cell/LoRaCell (2.1.1):
+    - MKCustomUIModule/Cell/FilterCell (= 2.1.3)
+    - MKCustomUIModule/Cell/LoRaCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell (= 2.1.3)
+  - MKCustomUIModule/Cell/FilterCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (= 2.1.1)
-    - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (= 2.1.1)
-    - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (= 2.1.1)
-    - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (= 2.1.1)
-    - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (= 2.1.1)
-    - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (= 2.1.1)
-    - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (= 2.1.1)
-    - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (= 2.1.1)
-  - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (2.1.1):
+    - MKCustomUIModule/Cell/FilterCell/FilterBeaconCell (= 2.1.3)
+    - MKCustomUIModule/Cell/FilterCell/FilterByRawDataCell (= 2.1.3)
+    - MKCustomUIModule/Cell/FilterCell/FilterEditSectionHeaderView (= 2.1.3)
+    - MKCustomUIModule/Cell/FilterCell/FilterNormalTextFieldCell (= 2.1.3)
+  - MKCustomUIModule/Cell/FilterCell/FilterBeaconCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (2.1.1):
+    - MKCustomUIModule/UIAdopter
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/Cell/FilterCell/FilterByRawDataCell (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/Cell/FilterCell/FilterEditSectionHeaderView (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/FilterCell/FilterNormalTextFieldCell (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/UIAdopter
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/Cell/LoRaCell (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (= 2.1.3)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (= 2.1.3)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (= 2.1.3)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (= 2.1.3)
+    - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (= 2.1.3)
+    - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (= 2.1.3)
+    - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (= 2.1.3)
+    - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (= 2.1.3)
+  - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
@@ -120,28 +160,28 @@ PODS:
     - MKBaseModuleLibrary
     - MKCustomUIModule/UIAdopter
     - MKCustomUIModule/View/MKPickerView
-  - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (2.1.1):
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-  - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (2.1.1):
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-  - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (2.1.1):
+  - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKPickerView
-  - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (2.1.1):
+  - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
@@ -149,38 +189,53 @@ PODS:
     - MKBaseModuleLibrary
     - MKCustomUIModule/UIAdopter
     - MKCustomUIModule/View/MKSlider
-  - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (2.1.1):
+  - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (2.1.1):
+  - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Cell/NormalCell (2.1.1):
+  - MKCustomUIModule/Cell/NormalCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (= 2.1.1)
-    - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (= 2.1.1)
-    - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (= 2.1.1)
-    - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (= 2.1.1)
-    - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (= 2.1.1)
-    - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (= 2.1.1)
-    - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (= 2.1.1)
-  - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (2.1.1):
+    - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoDfuCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (= 2.1.3)
+    - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (= 2.1.3)
+  - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (2.1.1):
+  - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoCell (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoDfuCell (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/UIAdopter
+  - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
@@ -188,72 +243,72 @@ PODS:
     - MKBaseModuleLibrary
     - MKCustomUIModule/UIAdopter
     - MKCustomUIModule/View/MKSlider
-  - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (2.1.1):
+  - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (2.1.1):
+  - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (2.1.1):
+  - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKPickerView
-  - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (2.1.1):
+  - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-  - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (2.1.1):
+  - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Controller (2.1.1):
+  - MKCustomUIModule/Controller (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Controller/CASelectPage (= 2.1.1)
-    - MKCustomUIModule/Controller/MKAboutPage (= 2.1.1)
-    - MKCustomUIModule/Controller/MKAlertController (= 2.1.1)
-    - MKCustomUIModule/Controller/MKTrackerAboutPage (= 2.1.1)
-  - MKCustomUIModule/Controller/CASelectPage (2.1.1):
+    - MKCustomUIModule/Controller/CASelectPage (= 2.1.3)
+    - MKCustomUIModule/Controller/MKAboutPage (= 2.1.3)
+    - MKCustomUIModule/Controller/MKAlertController (= 2.1.3)
+    - MKCustomUIModule/Controller/MKTrackerAboutPage (= 2.1.3)
+  - MKCustomUIModule/Controller/CASelectPage (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Controller/CASelectPage/Controller (= 2.1.1)
-  - MKCustomUIModule/Controller/CASelectPage/Controller (2.1.1):
+    - MKCustomUIModule/Controller/CASelectPage/Controller (= 2.1.3)
+  - MKCustomUIModule/Controller/CASelectPage/Controller (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell
-  - MKCustomUIModule/Controller/MKAboutPage (2.1.1):
+  - MKCustomUIModule/Controller/MKAboutPage (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Controller/MKAboutPage/Controller (= 2.1.1)
-    - MKCustomUIModule/Controller/MKAboutPage/Model (= 2.1.1)
-    - MKCustomUIModule/Controller/MKAboutPage/View (= 2.1.1)
-  - MKCustomUIModule/Controller/MKAboutPage/Controller (2.1.1):
+    - MKCustomUIModule/Controller/MKAboutPage/Controller (= 2.1.3)
+    - MKCustomUIModule/Controller/MKAboutPage/Model (= 2.1.3)
+    - MKCustomUIModule/Controller/MKAboutPage/View (= 2.1.3)
+  - MKCustomUIModule/Controller/MKAboutPage/Controller (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
@@ -261,186 +316,213 @@ PODS:
     - MKBaseModuleLibrary
     - MKCustomUIModule/Controller/MKAboutPage/Model
     - MKCustomUIModule/Controller/MKAboutPage/View
-  - MKCustomUIModule/Controller/MKAboutPage/Model (2.1.1):
+  - MKCustomUIModule/Controller/MKAboutPage/Model (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Controller/MKAboutPage/View (2.1.1):
+  - MKCustomUIModule/Controller/MKAboutPage/View (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/Controller/MKAboutPage/Model
-  - MKCustomUIModule/Controller/MKAlertController (2.1.1):
+  - MKCustomUIModule/Controller/MKAlertController (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/Controller/MKTrackerAboutPage (2.1.1):
+  - MKCustomUIModule/Controller/MKTrackerAboutPage (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (= 2.1.1)
-  - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (2.1.1):
+    - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (= 2.1.3)
+  - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/MQTTServerView (2.1.1):
+  - MKCustomUIModule/MQTTServerView (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/MQTTServerView/GeneralParams (= 2.1.1)
-    - MKCustomUIModule/MQTTServerView/SSL (= 2.1.1)
-    - MKCustomUIModule/MQTTServerView/UserCredentials (= 2.1.1)
-  - MKCustomUIModule/MQTTServerView/GeneralParams (2.1.1):
-    - CircleProgressBar
-    - Masonry
-    - MBProgressHUD
-    - MJRefresh
-    - MKBaseModuleLibrary
-    - MKCustomUIModule/View/MKTextField
-  - MKCustomUIModule/MQTTServerView/SSL (2.1.1):
-    - CircleProgressBar
-    - Masonry
-    - MBProgressHUD
-    - MJRefresh
-    - MKBaseModuleLibrary
-  - MKCustomUIModule/MQTTServerView/UserCredentials (2.1.1):
+    - MKCustomUIModule/MQTTServerView/GeneralParams (= 2.1.3)
+    - MKCustomUIModule/MQTTServerView/SSL (= 2.1.3)
+    - MKCustomUIModule/MQTTServerView/UserCredentials (= 2.1.3)
+  - MKCustomUIModule/MQTTServerView/GeneralParams (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-  - MKCustomUIModule/UIAdopter (2.1.1):
+  - MKCustomUIModule/MQTTServerView/SSL (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/MQTTServerView/UserCredentials (2.1.3):
+    - CircleProgressBar
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/UIAdopter (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View
-  - MKCustomUIModule/View (2.1.1):
+  - MKCustomUIModule/View (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/View/HaveRefreshView (= 2.1.1)
-    - MKCustomUIModule/View/MKAlertView (= 2.1.1)
-    - MKCustomUIModule/View/MKHexKeyBoard (= 2.1.1)
-    - MKCustomUIModule/View/MKHudManager (= 2.1.1)
-    - MKCustomUIModule/View/MKPageControl (= 2.1.1)
-    - MKCustomUIModule/View/MKPickerView (= 2.1.1)
-    - MKCustomUIModule/View/MKProgressView (= 2.1.1)
-    - MKCustomUIModule/View/MKSearchButton (= 2.1.1)
-    - MKCustomUIModule/View/MKSearchConditionsView (= 2.1.1)
-    - MKCustomUIModule/View/MKSlider (= 2.1.1)
-    - MKCustomUIModule/View/MKTableSectionHeader (= 2.1.1)
-    - MKCustomUIModule/View/MKTextField (= 2.1.1)
-    - MKCustomUIModule/View/NirKxMenu (= 2.1.1)
-    - MKCustomUIModule/View/WifiAlertView (= 2.1.1)
-  - MKCustomUIModule/View/HaveRefreshView (2.1.1):
+    - MKCustomUIModule/View/HaveRefreshView (= 2.1.3)
+    - MKCustomUIModule/View/MKAlertView (= 2.1.3)
+    - MKCustomUIModule/View/MKHexKeyBoard (= 2.1.3)
+    - MKCustomUIModule/View/MKHudManager (= 2.1.3)
+    - MKCustomUIModule/View/MKPageControl (= 2.1.3)
+    - MKCustomUIModule/View/MKPickerView (= 2.1.3)
+    - MKCustomUIModule/View/MKProgressView (= 2.1.3)
+    - MKCustomUIModule/View/MKSearchButton (= 2.1.3)
+    - MKCustomUIModule/View/MKSearchConditionsView (= 2.1.3)
+    - MKCustomUIModule/View/MKSlider (= 2.1.3)
+    - MKCustomUIModule/View/MKTableSectionHeader (= 2.1.3)
+    - MKCustomUIModule/View/MKTextField (= 2.1.3)
+    - MKCustomUIModule/View/NirKxMenu (= 2.1.3)
+    - MKCustomUIModule/View/WifiAlertView (= 2.1.3)
+  - MKCustomUIModule/View/HaveRefreshView (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKAlertView (2.1.1):
+  - MKCustomUIModule/View/MKAlertView (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-  - MKCustomUIModule/View/MKHexKeyBoard (2.1.1):
+  - MKCustomUIModule/View/MKHexKeyBoard (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKHudManager (2.1.1):
+  - MKCustomUIModule/View/MKHudManager (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKPageControl (2.1.1):
+  - MKCustomUIModule/View/MKPageControl (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKPickerView (2.1.1):
+  - MKCustomUIModule/View/MKPickerView (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKProgressView (2.1.1):
+  - MKCustomUIModule/View/MKProgressView (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKSearchButton (2.1.1):
+  - MKCustomUIModule/View/MKSearchButton (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKSearchConditionsView (2.1.1):
+  - MKCustomUIModule/View/MKSearchConditionsView (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKSlider
-  - MKCustomUIModule/View/MKSlider (2.1.1):
+  - MKCustomUIModule/View/MKSlider (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKTableSectionHeader (2.1.1):
+  - MKCustomUIModule/View/MKTableSectionHeader (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/MKTextField (2.1.1):
+  - MKCustomUIModule/View/MKTextField (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/NirKxMenu (2.1.1):
+  - MKCustomUIModule/View/NirKxMenu (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
-  - MKCustomUIModule/View/WifiAlertView (2.1.1):
+  - MKCustomUIModule/View/WifiAlertView (2.1.3):
     - CircleProgressBar
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
+  - MKIotCloudManager (0.0.5):
+    - MKIotCloudManager/SDK (= 0.0.5)
+    - MKIotCloudManager/View (= 0.0.5)
+  - MKIotCloudManager/SDK (0.0.5):
+    - MKIotCloudManager/SDK/Config (= 0.0.5)
+    - MKIotCloudManager/SDK/MKNetwork (= 0.0.5)
+    - MKIotCloudManager/SDK/NetworkService (= 0.0.5)
+  - MKIotCloudManager/SDK/Config (0.0.5)
+  - MKIotCloudManager/SDK/MKNetwork (0.0.5):
+    - AFNetworking
+    - MKBaseModuleLibrary
+    - MKIotCloudManager/SDK/Config
+  - MKIotCloudManager/SDK/NetworkService (0.0.5):
+    - AFNetworking
+    - MKBaseModuleLibrary
+    - MKIotCloudManager/SDK/Config
+    - MKIotCloudManager/SDK/MKNetwork
+  - MKIotCloudManager/View (0.0.5):
+    - MKIotCloudManager/View/AccountLoginAlertView (= 0.0.5)
+    - MKIotCloudManager/View/ExitAccountAlertView (= 0.0.5)
+  - MKIotCloudManager/View/AccountLoginAlertView (0.0.5):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKIotCloudManager/View/ExitAccountAlertView (0.0.5):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
   - MKRemoteSevenDPro (0.0.1):
     - MKRemoteSevenDPro/CTMediator (= 0.0.1)
     - MKRemoteSevenDPro/DeviceModel (= 0.0.1)
     - MKRemoteSevenDPro/Expand (= 0.0.1)
     - MKRemoteSevenDPro/Functions (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager (= 0.0.1)
     - MKRemoteSevenDPro/SDK (= 0.0.1)
     - MKRemoteSevenDPro/Target (= 0.0.1)
   - MKRemoteSevenDPro/CTMediator (0.0.1):
@@ -488,28 +570,8 @@ PODS:
     - MKBaseModuleLibrary
     - MKCustomUIModule
     - MKRemoteSevenDPro/Expand/View/AlertView (= 0.0.1)
-    - MKRemoteSevenDPro/Expand/View/FilterCell (= 0.0.1)
     - MKRemoteSevenDPro/Expand/View/UserCredentialsView (= 0.0.1)
   - MKRemoteSevenDPro/Expand/View/AlertView (0.0.1):
-    - MKBaseModuleLibrary
-    - MKCustomUIModule
-  - MKRemoteSevenDPro/Expand/View/FilterCell (0.0.1):
-    - MKBaseModuleLibrary
-    - MKCustomUIModule
-    - MKRemoteSevenDPro/Expand/View/FilterCell/FilterBeaconCell (= 0.0.1)
-    - MKRemoteSevenDPro/Expand/View/FilterCell/FilterByRawDataCell (= 0.0.1)
-    - MKRemoteSevenDPro/Expand/View/FilterCell/FilterEditSectionHeaderView (= 0.0.1)
-    - MKRemoteSevenDPro/Expand/View/FilterCell/FilterNormalTextFieldCell (= 0.0.1)
-  - MKRemoteSevenDPro/Expand/View/FilterCell/FilterBeaconCell (0.0.1):
-    - MKBaseModuleLibrary
-    - MKCustomUIModule
-  - MKRemoteSevenDPro/Expand/View/FilterCell/FilterByRawDataCell (0.0.1):
-    - MKBaseModuleLibrary
-    - MKCustomUIModule
-  - MKRemoteSevenDPro/Expand/View/FilterCell/FilterEditSectionHeaderView (0.0.1):
-    - MKBaseModuleLibrary
-    - MKCustomUIModule
-  - MKRemoteSevenDPro/Expand/View/FilterCell/FilterNormalTextFieldCell (0.0.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
   - MKRemoteSevenDPro/Expand/View/UserCredentialsView (0.0.1):
@@ -529,6 +591,8 @@ PODS:
     - MKRemoteSevenDPro/Functions/ScanPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ServerForApp (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SyncDevicePage (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules (0.0.1):
@@ -539,6 +603,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages (0.0.1):
@@ -557,6 +622,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage (0.0.1):
@@ -568,6 +634,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Controller (0.0.1):
@@ -578,6 +645,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Model
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleAdvBeaconPage/Model (0.0.1):
@@ -587,6 +655,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage (0.0.1):
@@ -598,6 +667,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Controller (0.0.1):
@@ -608,6 +678,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Model
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleDeviceInfoPage/Model (0.0.1):
@@ -617,6 +688,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage (0.0.1):
@@ -628,6 +700,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Controller (0.0.1):
@@ -638,6 +711,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Model
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleNetworkSettingsPage/Model (0.0.1):
@@ -647,6 +721,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage (0.0.1):
@@ -658,6 +733,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Controller (0.0.1):
@@ -668,6 +744,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Model
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleScannerFilterPage/Model (0.0.1):
@@ -677,6 +754,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage (0.0.1):
@@ -689,6 +767,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/View (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Controller (0.0.1):
@@ -700,6 +779,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Model
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/View
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/Model (0.0.1):
@@ -709,6 +789,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/BleWifiSettingsPage/View (0.0.1):
@@ -718,6 +799,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage (0.0.1):
@@ -728,6 +810,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ConnectSuccessPage/Controller (0.0.1):
@@ -737,6 +820,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/DeviceParamsListPage (0.0.1):
@@ -747,6 +831,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/DeviceParamsListPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/DeviceParamsListPage/Controller (0.0.1):
@@ -764,6 +849,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage (0.0.1):
@@ -775,6 +861,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Controller (0.0.1):
@@ -785,6 +872,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Model
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/NTPTimezonePage/Model (0.0.1):
@@ -794,6 +882,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice (0.0.1):
@@ -806,6 +895,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/View (= 0.0.1)
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Controller (0.0.1):
@@ -817,6 +907,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Model
     - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/View
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/Model (0.0.1):
@@ -826,6 +917,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/Pages/ServerForDevice/View (0.0.1):
@@ -835,6 +927,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/AddDeviceModules/ParamsModel (0.0.1):
@@ -843,6 +936,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/DeviceDataPage (0.0.1):
@@ -853,6 +947,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/DeviceDataPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/DeviceDataPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/DeviceDataPage/Controller (0.0.1):
@@ -865,6 +960,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage
     - MKRemoteSevenDPro/Functions/ManageBleModules
     - MKRemoteSevenDPro/Functions/SettingPages
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/DeviceDataPage/View (0.0.1):
@@ -873,6 +969,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/DeviceListPage (0.0.1):
@@ -884,6 +981,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/DeviceListPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/DeviceListPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/DeviceListPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/DeviceListPage/Controller (0.0.1):
@@ -897,6 +995,8 @@ PODS:
     - MKRemoteSevenDPro/Functions/DeviceListPage/View
     - MKRemoteSevenDPro/Functions/ScanPage
     - MKRemoteSevenDPro/Functions/ServerForApp
+    - MKRemoteSevenDPro/Functions/SyncDevicePage
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/DeviceListPage/Model (0.0.1):
@@ -905,6 +1005,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/DeviceListPage/View (0.0.1):
@@ -914,6 +1015,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/DeviceListPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages (0.0.1):
@@ -936,6 +1038,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage (0.0.1):
@@ -946,6 +1049,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Controller (0.0.1):
@@ -955,6 +1059,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/DuplicateDataFilterPage/Model (0.0.1):
@@ -963,6 +1068,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage (0.0.1):
@@ -973,6 +1079,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Controller (0.0.1):
@@ -982,6 +1089,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByAdvNamePage/Model (0.0.1):
@@ -990,6 +1098,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage (0.0.1):
@@ -1001,6 +1110,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Controller (0.0.1):
@@ -1011,6 +1121,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header (0.0.1):
@@ -1019,6 +1130,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Model (0.0.1):
@@ -1028,6 +1140,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByBeaconPage/Header
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage (0.0.1):
@@ -1038,6 +1151,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Controller (0.0.1):
@@ -1047,6 +1161,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByButtonPage/Model (0.0.1):
@@ -1055,6 +1170,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage (0.0.1):
@@ -1065,6 +1181,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Controller (0.0.1):
@@ -1074,6 +1191,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByMacPage/Model (0.0.1):
@@ -1082,6 +1200,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage (0.0.1):
@@ -1092,6 +1211,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Controller (0.0.1):
@@ -1101,6 +1221,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByOtherPage/Model (0.0.1):
@@ -1109,6 +1230,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage (0.0.1):
@@ -1119,6 +1241,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Controller (0.0.1):
@@ -1128,6 +1251,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByPirPage/Model (0.0.1):
@@ -1136,6 +1260,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage (0.0.1):
@@ -1146,6 +1271,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Controller (0.0.1):
@@ -1163,6 +1289,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByRawDataPage/Model (0.0.1):
@@ -1171,6 +1298,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag (0.0.1):
@@ -1181,6 +1309,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Controller (0.0.1):
@@ -1190,6 +1319,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByTag/Model (0.0.1):
@@ -1198,6 +1328,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage (0.0.1):
@@ -1208,6 +1339,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Controller (0.0.1):
@@ -1217,6 +1349,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByTLMPage/Model (0.0.1):
@@ -1225,6 +1358,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage (0.0.1):
@@ -1235,6 +1369,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Controller (0.0.1):
@@ -1244,6 +1379,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByUIDPage/Model (0.0.1):
@@ -1252,6 +1388,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage (0.0.1):
@@ -1262,6 +1399,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Controller (0.0.1):
@@ -1271,6 +1409,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/FilterByURLPage/Model (0.0.1):
@@ -1279,6 +1418,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage (0.0.1):
@@ -1289,6 +1429,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Controller (0.0.1):
@@ -1298,6 +1439,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage/Model (0.0.1):
@@ -1306,6 +1448,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage (0.0.1):
@@ -1317,6 +1460,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Controller (0.0.1):
@@ -1332,6 +1476,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/FilterPages/UploadDataOptionPage
     - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Model
     - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/Model (0.0.1):
@@ -1340,6 +1485,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/FilterPages/UploadOptionPage/View (0.0.1):
@@ -1348,6 +1494,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules (0.0.1):
@@ -1360,6 +1507,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage (0.0.1):
@@ -1370,6 +1518,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Controller (0.0.1):
@@ -1379,6 +1528,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage/Model (0.0.1):
@@ -1387,6 +1537,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage (0.0.1):
@@ -1397,6 +1548,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/Controller (0.0.1):
@@ -1407,6 +1559,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ManageBleModules/ButtonDFUPage
     - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage/View (0.0.1):
@@ -1415,6 +1568,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage (0.0.1):
@@ -1425,6 +1579,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/Controller (0.0.1):
@@ -1436,6 +1591,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/ManageBleModules/BXPButtonPage
     - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/View
     - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/ManageBleDevicesPage/View (0.0.1):
@@ -1444,6 +1600,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage (0.0.1):
@@ -1454,6 +1611,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/Controller (0.0.1):
@@ -1463,6 +1621,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ManageBleModules/NormalConnectedPage/View (0.0.1):
@@ -1471,6 +1630,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ScanPage (0.0.1):
@@ -1482,6 +1642,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/ScanPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ScanPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ScanPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ScanPage/Controller (0.0.1):
@@ -1493,6 +1654,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/AddDeviceModules
     - MKRemoteSevenDPro/Functions/ScanPage/Model
     - MKRemoteSevenDPro/Functions/ScanPage/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ScanPage/Model (0.0.1):
@@ -1501,6 +1663,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ScanPage/View (0.0.1):
@@ -1510,6 +1673,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ScanPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ServerForApp (0.0.1):
@@ -1521,6 +1685,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/ServerForApp/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ServerForApp/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/ServerForApp/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ServerForApp/Controller (0.0.1):
@@ -1531,6 +1696,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/ServerForApp/Model
     - MKRemoteSevenDPro/Functions/ServerForApp/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ServerForApp/Model (0.0.1):
@@ -1539,6 +1705,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/ServerForApp/View (0.0.1):
@@ -1547,6 +1714,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages (0.0.1):
@@ -1560,6 +1728,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/OTAPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/SettingPage (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage (0.0.1):
@@ -1570,6 +1739,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Controller (0.0.1):
@@ -1579,6 +1749,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/DeviceInfoPage/Model (0.0.1):
@@ -1587,6 +1758,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages (0.0.1):
@@ -1599,6 +1771,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage (0.0.1):
@@ -1609,6 +1782,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Controller (0.0.1):
@@ -1618,6 +1792,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttNetworkSettingsPage/Model (0.0.1):
@@ -1626,6 +1801,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage (0.0.1):
@@ -1636,6 +1812,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Controller (0.0.1):
@@ -1648,6 +1825,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Model
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttParamsListPage/Model (0.0.1):
@@ -1656,6 +1834,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage (0.0.1):
@@ -1667,6 +1846,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Controller (0.0.1):
@@ -1677,6 +1857,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Model
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/Model (0.0.1):
@@ -1685,6 +1866,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttServerPage/View (0.0.1):
@@ -1693,6 +1875,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage (0.0.1):
@@ -1704,6 +1887,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Model (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Controller (0.0.1):
@@ -1714,6 +1898,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Model
     - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/Model (0.0.1):
@@ -1722,6 +1907,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/ModifyNetworkPages/MqttWifiSettingsPage/View (0.0.1):
@@ -1730,6 +1916,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings (0.0.1):
@@ -1747,6 +1934,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage (0.0.1):
@@ -1757,6 +1945,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Controller (0.0.1):
@@ -1766,6 +1955,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/AdvBeaconPage/Model (0.0.1):
@@ -1774,6 +1964,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage (0.0.1):
@@ -1784,6 +1975,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Controller (0.0.1):
@@ -1793,6 +1985,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/CommunicatePage/Model (0.0.1):
@@ -1801,6 +1994,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage (0.0.1):
@@ -1811,6 +2005,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Controller (0.0.1):
@@ -1820,6 +2015,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/DataReportPage/Model (0.0.1):
@@ -1828,6 +2024,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage (0.0.1):
@@ -1838,6 +2035,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Controller (0.0.1):
@@ -1847,6 +2045,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/IndicatorSettingsPage/Model (0.0.1):
@@ -1855,6 +2054,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage (0.0.1):
@@ -1865,6 +2065,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Controller (0.0.1):
@@ -1874,6 +2075,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NetworkStatusPage/Model (0.0.1):
@@ -1882,6 +2084,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage (0.0.1):
@@ -1892,6 +2095,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Controller (0.0.1):
@@ -1901,6 +2105,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage/Model (0.0.1):
@@ -1909,6 +2114,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage (0.0.1):
@@ -1919,6 +2125,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Controller (0.0.1):
@@ -1928,6 +2135,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ReconnectTimePage/Model (0.0.1):
@@ -1936,6 +2144,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage (0.0.1):
@@ -1946,6 +2155,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/Controller (0.0.1):
@@ -1955,6 +2165,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/ResetByButtonPage/View (0.0.1):
@@ -1963,6 +2174,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage (0.0.1):
@@ -1973,6 +2185,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/Controller (0.0.1):
@@ -1983,6 +2196,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/NTPServerPage
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/View
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings/SystemTimePage/View (0.0.1):
@@ -1991,6 +2205,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/OTAPage (0.0.1):
@@ -2001,6 +2216,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Controller (0.0.1):
@@ -2010,6 +2226,7 @@ PODS:
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/OTAPage/Model (0.0.1):
@@ -2018,6 +2235,7 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/SettingPage (0.0.1):
@@ -2028,6 +2246,7 @@ PODS:
     - MKRemoteSevenDPro/Expand
     - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Controller (= 0.0.1)
     - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Model (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Controller (0.0.1):
@@ -2041,6 +2260,7 @@ PODS:
     - MKRemoteSevenDPro/Functions/SettingPages/NormalSettings
     - MKRemoteSevenDPro/Functions/SettingPages/OTAPage
     - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Model
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
   - MKRemoteSevenDPro/Functions/SettingPages/SettingPage/Model (0.0.1):
@@ -2049,8 +2269,41 @@ PODS:
     - MKRemoteSevenDPro/CTMediator
     - MKRemoteSevenDPro/DeviceModel
     - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
     - MKRemoteSevenDPro/SDK
     - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SyncDevicePage (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SyncDevicePage/Controller (= 0.0.1)
+    - MKRemoteSevenDPro/Functions/SyncDevicePage/View (= 0.0.1)
+    - MKRemoteSevenDPro/LoginManager
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SyncDevicePage/Controller (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/Functions/SyncDevicePage/View
+    - MKRemoteSevenDPro/LoginManager
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/Functions/SyncDevicePage/View (0.0.1):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKRemoteSevenDPro/CTMediator
+    - MKRemoteSevenDPro/DeviceModel
+    - MKRemoteSevenDPro/Expand
+    - MKRemoteSevenDPro/LoginManager
+    - MKRemoteSevenDPro/SDK
+    - MLInputDodger
+  - MKRemoteSevenDPro/LoginManager (0.0.1):
+    - MKIotCloudManager
   - MKRemoteSevenDPro/SDK (0.0.1):
     - MKRemoteSevenDPro/SDK/BLE (= 0.0.1)
     - MKRemoteSevenDPro/SDK/MQTT (= 0.0.1)
@@ -2070,7 +2323,7 @@ PODS:
     - MKRemoteSevenDPro/Functions
   - MLInputDodger (1.5.2)
   - SSZipArchive (2.4.3)
-  - Toast (4.0.0)
+  - Toast (4.1.0)
   - WRNavigationBar (1.4.0)
 
 DEPENDENCIES:
@@ -2090,6 +2343,7 @@ SPEC REPOS:
     - MKBaseModuleLibrary
     - MKBaseMQTTModule
     - MKCustomUIModule
+    - MKIotCloudManager
     - MLInputDodger
     - SSZipArchive
     - Toast
@@ -2111,13 +2365,14 @@ SPEC CHECKSUMS:
   MKBaseBleModule: 15aa067c4e408a473e025b1a768ebce00a7e5949
   MKBaseModuleLibrary: 2b79bcae588c755588413fbb643b510253271b23
   MKBaseMQTTModule: 5434692b017865eede3b2ac6d2b4df52acd65a91
-  MKCustomUIModule: 3c7038a6c5f5841c7894e6647ecff78482723947
-  MKRemoteSevenDPro: ba92808a37ad1df6200b09e1d5c3322620869ac6
+  MKCustomUIModule: bbc862397ad4ffad0a88de756265a29aad5ddaab
+  MKIotCloudManager: 2d80758d19191e83977c12313842d0febb047dab
+  MKRemoteSevenDPro: 6d7989097feb1fb98ad99be12051b2492ed801a1
   MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
-  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  Toast: ec33c32b8688982cecc6348adeae667c1b9938da
   WRNavigationBar: 10bfdf96addf14d640d07c2ef08a029c18d8af10
 
 PODFILE CHECKSUM: eb127aa3643c5715609a0299282fb8af02c1970d
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.16.1

@@ -23,7 +23,7 @@
 #import "MKCustomUIAdopter.h"
 #import "MKTableSectionLineHeader.h"
 
-#import "MKSDFilterEditSectionHeaderView.h"
+#import "MKFilterEditSectionHeaderView.h"
 
 #import "MKSDFilterByTagModel.h"
 
@@ -31,7 +31,7 @@
 UITableViewDataSource,
 mk_textSwitchCellDelegate,
 MKTextFieldCellDelegate,
-MKSDFilterEditSectionHeaderViewDelegate>
+MKFilterEditSectionHeaderViewDelegate>
 
 @property (nonatomic, strong)MKBaseTableView *tableView;
 
@@ -82,10 +82,10 @@ MKSDFilterEditSectionHeaderViewDelegate>
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     if (section == 2) {
-        MKSDFilterEditSectionHeaderViewModel *headerModel = [[MKSDFilterEditSectionHeaderViewModel alloc] init];
+        MKFilterEditSectionHeaderViewModel *headerModel = [[MKFilterEditSectionHeaderViewModel alloc] init];
         headerModel.index = 0;
         headerModel.msg = @"Tag ID";
-        MKSDFilterEditSectionHeaderView *headerView = [MKSDFilterEditSectionHeaderView initHeaderViewWithTableView:tableView];
+        MKFilterEditSectionHeaderView *headerView = [MKFilterEditSectionHeaderView initHeaderViewWithTableView:tableView];
         headerView.dataModel = headerModel;
         headerView.delegate = self;
         return headerView;
@@ -172,11 +172,11 @@ MKSDFilterEditSectionHeaderViewDelegate>
     cellModel.textFieldValue = value;
 }
 
-#pragma  mark - MKSDFilterEditSectionHeaderViewDelegate
+#pragma  mark - MKFilterEditSectionHeaderViewDelegate
 
 /// 加号点击事件
 /// @param index 所在index
-- (void)mk_sd_filterEditSectionHeaderView_addButtonPressed:(NSInteger)index {
+- (void)mk_filterEditSectionHeaderView_addButtonPressed:(NSInteger)index {
     if (self.section2List.count >= 10) {
         [self.view showCentralToast:@"You can set up to 10 filters!"];
         return;
@@ -194,7 +194,7 @@ MKSDFilterEditSectionHeaderViewDelegate>
 
 /// 减号点击事件
 /// @param index 所在index
-- (void)mk_sd_filterEditSectionHeaderView_subButtonPressed:(NSInteger)index {
+- (void)mk_filterEditSectionHeaderView_subButtonPressed:(NSInteger)index {
     if (self.section2List.count == 0) {
         return;
     }

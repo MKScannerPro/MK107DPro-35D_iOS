@@ -27,13 +27,13 @@
 
 #import "MKSDDeviceModel.h"
 
-#import "MKSDFilterEditSectionHeaderView.h"
+#import "MKFilterEditSectionHeaderView.h"
 
 #import "MKSDFilterByMacModel.h"
 
 @interface MKSDFilterByMacController ()<UITableViewDelegate,
 UITableViewDataSource,
-MKSDFilterEditSectionHeaderViewDelegate,
+MKFilterEditSectionHeaderViewDelegate,
 mk_textSwitchCellDelegate,
 MKTextFieldCellDelegate>
 
@@ -84,10 +84,10 @@ MKTextFieldCellDelegate>
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     if (section == 1) {
-        MKSDFilterEditSectionHeaderViewModel *headerModel = [[MKSDFilterEditSectionHeaderViewModel alloc] init];
+        MKFilterEditSectionHeaderViewModel *headerModel = [[MKFilterEditSectionHeaderViewModel alloc] init];
         headerModel.index = 0;
         headerModel.msg = @"Edit Mac Address";
-        MKSDFilterEditSectionHeaderView *headerView = [MKSDFilterEditSectionHeaderView initHeaderViewWithTableView:tableView];
+        MKFilterEditSectionHeaderView *headerView = [MKFilterEditSectionHeaderView initHeaderViewWithTableView:tableView];
         headerView.dataModel = headerModel;
         headerView.delegate = self;
         return headerView;
@@ -125,10 +125,10 @@ MKTextFieldCellDelegate>
     return cell;
 }
 
-#pragma mark - MKSDFilterEditSectionHeaderViewDelegate
+#pragma mark - MKFilterEditSectionHeaderViewDelegate
 /// 加号点击事件
 /// @param index 所在index
-- (void)mk_sd_filterEditSectionHeaderView_addButtonPressed:(NSInteger)index {
+- (void)mk_filterEditSectionHeaderView_addButtonPressed:(NSInteger)index {
     if (index != 0) {
         return;
     }
@@ -149,7 +149,7 @@ MKTextFieldCellDelegate>
 
 /// 减号点击事件
 /// @param index 所在index
-- (void)mk_sd_filterEditSectionHeaderView_subButtonPressed:(NSInteger)index {
+- (void)mk_filterEditSectionHeaderView_subButtonPressed:(NSInteger)index {
     if (index != 0) {
         return;
     }

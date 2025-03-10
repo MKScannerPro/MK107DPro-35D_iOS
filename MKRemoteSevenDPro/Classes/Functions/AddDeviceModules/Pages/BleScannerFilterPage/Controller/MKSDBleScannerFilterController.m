@@ -22,14 +22,14 @@
 #import "MKNormalSliderCell.h"
 #import "MKTableSectionLineHeader.h"
 
-#import "MKSDFilterNormalTextFieldCell.h"
+#import "MKFilterNormalTextFieldCell.h"
 
 #import "MKSDBleScannerFilterModel.h"
 
 @interface MKSDBleScannerFilterController ()<UITableViewDelegate,
 UITableViewDataSource,
 MKNormalSliderCellDelegate,
-MKSDFilterNormalTextFieldCellDelegate>
+MKFilterNormalTextFieldCellDelegate>
 
 @property (nonatomic, strong)MKBaseTableView *tableView;
 
@@ -114,7 +114,7 @@ MKSDFilterNormalTextFieldCellDelegate>
         cell.delegate = self;
         return cell;
     }
-    MKSDFilterNormalTextFieldCell *cell = [MKSDFilterNormalTextFieldCell initCellWithTableView:tableView];
+    MKFilterNormalTextFieldCell *cell = [MKFilterNormalTextFieldCell initCellWithTableView:tableView];
     cell.dataModel = self.section1List[indexPath.row];
     cell.delegate = self;
     return cell;
@@ -134,20 +134,20 @@ MKSDFilterNormalTextFieldCellDelegate>
     }
 }
 
-#pragma mark - MKSDFilterNormalTextFieldCellDelegate
+#pragma mark - MKFilterNormalTextFieldCellDelegate
 
-- (void)mk_sd_filterNormalTextFieldValueChanged:(NSString *)text index:(NSInteger)index {
+- (void)mk_filterNormalTextFieldValueChanged:(NSString *)text index:(NSInteger)index {
     if (index == 0) {
         //macAddress
         self.dataModel.macAddress = text;
-        MKSDFilterNormalTextFieldCellModel *cellModel = self.section1List[0];
+        MKFilterNormalTextFieldCellModel *cellModel = self.section1List[0];
         cellModel.textFieldValue = text;
         return;
     }
     if (index == 1) {
         //ADV Name
         self.dataModel.advName = text;
-        MKSDFilterNormalTextFieldCellModel *cellModel = self.section1List[1];
+        MKFilterNormalTextFieldCellModel *cellModel = self.section1List[1];
         cellModel.textFieldValue = text;
         return;
     }
@@ -204,7 +204,7 @@ MKSDFilterNormalTextFieldCellDelegate>
 }
 
 - (void)loadSection1Datas {
-    MKSDFilterNormalTextFieldCellModel *cellModel1 = [[MKSDFilterNormalTextFieldCellModel alloc] init];
+    MKFilterNormalTextFieldCellModel *cellModel1 = [[MKFilterNormalTextFieldCellModel alloc] init];
     cellModel1.index = 0;
     cellModel1.msg = @"Filter by MAC Address";
     cellModel1.maxLength = 12;
@@ -213,7 +213,7 @@ MKSDFilterNormalTextFieldCellDelegate>
     cellModel1.textFieldValue = self.dataModel.macAddress;
     [self.section1List addObject:cellModel1];
     
-    MKSDFilterNormalTextFieldCellModel *cellModel2 = [[MKSDFilterNormalTextFieldCellModel alloc] init];
+    MKFilterNormalTextFieldCellModel *cellModel2 = [[MKFilterNormalTextFieldCellModel alloc] init];
     cellModel2.index = 1;
     cellModel2.msg = @"Filter by ADV Name";
     cellModel2.maxLength = 20;

@@ -25,7 +25,7 @@
 
 #import "MKSDDeviceModel.h"
 
-#import "MKSDFilterBeaconCell.h"
+#import "MKFilterBeaconCell.h"
 
 #import "MKSDFilterByPirModel.h"
 
@@ -33,7 +33,7 @@
 UITableViewDataSource,
 mk_textSwitchCellDelegate,
 MKTextButtonCellDelegate,
-MKSDFilterBeaconCellDelegate>
+MKFilterBeaconCellDelegate>
 
 @property (nonatomic, strong)MKBaseTableView *tableView;
 
@@ -109,7 +109,7 @@ MKSDFilterBeaconCellDelegate>
         cell.delegate = self;
         return cell;
     }
-    MKSDFilterBeaconCell *cell = [MKSDFilterBeaconCell initCellWithTableView:tableView];
+    MKFilterBeaconCell *cell = [MKFilterBeaconCell initCellWithTableView:tableView];
     cell.dataModel = self.section2List[indexPath.row];
     cell.delegate = self;
     return cell;
@@ -161,9 +161,9 @@ MKSDFilterBeaconCellDelegate>
     }
 }
 
-#pragma mark - MKSDFilterBeaconCellDelegate
-- (void)mk_sd_beaconMinValueChanged:(NSString *)value index:(NSInteger)index {
-    MKSDFilterBeaconCellModel *cellModel = self.section2List[index];
+#pragma mark - MKFilterBeaconCellDelegate
+- (void)mk_beaconMinValueChanged:(NSString *)value index:(NSInteger)index {
+    MKFilterBeaconCellModel *cellModel = self.section2List[index];
     cellModel.minValue = value;
     if (index == 0) {
         //Major
@@ -177,8 +177,8 @@ MKSDFilterBeaconCellDelegate>
     }
 }
 
-- (void)mk_sd_beaconMaxValueChanged:(NSString *)value index:(NSInteger)index {
-    MKSDFilterBeaconCellModel *cellModel = self.section2List[index];
+- (void)mk_beaconMaxValueChanged:(NSString *)value index:(NSInteger)index {
+    MKFilterBeaconCellModel *cellModel = self.section2List[index];
     cellModel.maxValue = value;
     if (index == 0) {
         //Major
@@ -273,14 +273,14 @@ MKSDFilterBeaconCellDelegate>
 }
 
 - (void)loadSection2Datas {
-    MKSDFilterBeaconCellModel *cellModel1 = [[MKSDFilterBeaconCellModel alloc] init];
+    MKFilterBeaconCellModel *cellModel1 = [[MKFilterBeaconCellModel alloc] init];
     cellModel1.index = 0;
     cellModel1.msg = @"Major";
     cellModel1.minValue = self.dataModel.minMajor;
     cellModel1.maxValue = self.dataModel.maxMajor;
     [self.section2List addObject:cellModel1];
     
-    MKSDFilterBeaconCellModel *cellModel2 = [[MKSDFilterBeaconCellModel alloc] init];
+    MKFilterBeaconCellModel *cellModel2 = [[MKFilterBeaconCellModel alloc] init];
     cellModel2.msg = @"Minor";
     cellModel2.index = 1;
     cellModel2.minValue = self.dataModel.minMinor;
