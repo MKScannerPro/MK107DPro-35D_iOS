@@ -141,6 +141,7 @@
 #import "MKSDSettingModel.h"
 #import "MKSDSyncDeviceController.h"
 #import "MKSDSyncDeviceCell.h"
+#import "MKSDNetworkService.h"
 #import "MKSDUserLoginManager.h"
 #import "CBPeripheral+MKSDAdd.h"
 #import "MKSDBLESDK.h"

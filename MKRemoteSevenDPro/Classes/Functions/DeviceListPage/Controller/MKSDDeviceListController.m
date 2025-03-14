@@ -20,7 +20,7 @@
 #import "MKAlertView.h"
 
 #import "MKIoTCloudAccountLoginAlertView.h"
-#import "MKNormalService.h"
+#import "MKIoTLoginService.h"
 
 #import "MKNetworkManager.h"
 
@@ -606,7 +606,7 @@ MKSDDeviceModelDelegate>
 
 - (void)login:(BOOL)isHome username:(NSString *)username password:(NSString *)password {
     [[MKHudManager share] showHUDWithTitle:@"Login..." inView:self.view isPenetration:NO];
-    [[MKNormalService share] loginWithUsername:username password:password isHome:isHome sucBlock:^(id returnData) {
+    [[MKIoTLoginService share] loginWithUsername:username password:password isHome:isHome sucBlock:^(id returnData) {
         [[MKHudManager share] hide];
         [[MKSDUserLoginManager shared] syncLoginDataWithHome:isHome username:username password:password];
         MKSDSyncDeviceController *vc = [[MKSDSyncDeviceController alloc] init];
